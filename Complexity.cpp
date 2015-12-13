@@ -71,7 +71,10 @@ void nestedForLoopsNM (int n, int m){
             cout <<"\nProduct of "<<i<<" and "<<j<<" is :"<<i*j ;
 }
 
-
+void arrayPrint (int arr[], int asize){
+	for (int i=0; i<asize; i++) 
+		cout<<arr[i]<<"\t";
+}
 
 int main(){
 
