@@ -12,10 +12,9 @@ void simpleFunction (int n){
 
 void singleForLoop (int n){
 
-    for (int i=0; i< n; i++){
-
+    for (int i=0; i< n; i++)
         cout<<" The square of "<<i<<" is :"<< i*i;
-  }
+  
 }
 
 void singleWhileLoop (int n){
@@ -28,7 +27,6 @@ void singleWhileLoop (int n){
 
   }
 }
-
 
 void ifStatement (int n){
     if (n%2 == 0)
@@ -43,7 +41,6 @@ void nestedForLoops (int n){
     for (int i=0; i<n; i++)
         for (int j=0; j<n; j++)
             cout <<"\nProduct of "<<i<<" and "<<j<<" is :"<<i*j ;
-
 }
 
 void twoForLoops (int n){
@@ -63,7 +60,6 @@ void twoForLoopsNM(int n, int m){
             cout <<"\nThe value of j is :"<<j;
     }
 }
-
 
 void nestedForLoopsNM (int n, int m){
     for (int i=0; i<n; i++)
